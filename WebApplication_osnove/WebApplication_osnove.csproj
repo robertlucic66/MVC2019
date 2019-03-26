@@ -68,7 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HtmlPage1.html" />
-    <Content Include="test2html.html" />
+    <Content Include="index.html" />
+    <Content Include="primjer_forme.htm" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
