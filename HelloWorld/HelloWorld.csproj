@@ -144,12 +144,14 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KontekstController.cs" />
     <Compile Include="Controllers\MatematickiIzrazController.cs" />
+    <Compile Include="Controllers\OsobeController.cs" />
     <Compile Include="Controllers\PozdravSvijeteController.cs" />
     <Compile Include="Controllers\PrviController.cs" />
     <Compile Include="Controllers\SimpleBindingController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Osoba.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -197,10 +199,10 @@
     <Content Include="Views\Kontekst\QueryPodaci.cshtml" />
     <Content Include="Views\Kontekst\RoutePodaci.cshtml" />
     <Content Include="Views\SimpleBinding\SimpleBindMetoda.cshtml" />
+    <Content Include="Views\Osobe\PopuniOsobu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\GeneratorIzlaza\" />
   </ItemGroup>
   <ItemGroup>
