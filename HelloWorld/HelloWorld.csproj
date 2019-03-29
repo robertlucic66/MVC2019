@@ -146,6 +146,7 @@
     <Compile Include="Controllers\MatematickiIzrazController.cs" />
     <Compile Include="Controllers\PozdravSvijeteController.cs" />
     <Compile Include="Controllers\PrviController.cs" />
+    <Compile Include="Controllers\SimpleBindingController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -195,10 +196,12 @@
     <Content Include="Views\Kontekst\Index.cshtml" />
     <Content Include="Views\Kontekst\QueryPodaci.cshtml" />
     <Content Include="Views\Kontekst\RoutePodaci.cshtml" />
+    <Content Include="Views\SimpleBinding\SimpleBindMetoda.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\GeneratorIzlaza\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
