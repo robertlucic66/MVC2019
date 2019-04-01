@@ -1,0 +1,21 @@
+﻿@model string
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div>
+    <form action="/TocanOdgovor/provjeri" method="post">
+        <label>Glavni grad europske unije?</label><br /><hr />
+        <input type="radio" name="odgovor" value="Berlin" />Berlin<br />
+        <input type="radio" name="odgovor" value="Den Haag" />Den Haag<br />
+        <input type="radio" name="odgovor" value="Parizn" />parizn<br />
+        <input type="radio" name="odgovor" value="Bruxelles" />Bruxelles<br />
+        <p>
+            <button type="submit">Pošalji odgovor</button>
+        </p>
+    </form>
+</div>
+<p>
+    <label style="font-weight:bold">@model</label>
+</p>

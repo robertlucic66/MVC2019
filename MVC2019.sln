@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsPrimjer", "WebForms
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{70E05C3E-E1A2-4795-B3D1-A1FCAA22DD9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2.1_Narudzbaartikla", "4.2.1_Narudzbaartikla\4.2.1_Narudzbaartikla.csproj", "{C183C361-F558-4FEF-AD08-EA11239F30DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{70E05C3E-E1A2-4795-B3D1-A1FCAA22DD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70E05C3E-E1A2-4795-B3D1-A1FCAA22DD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70E05C3E-E1A2-4795-B3D1-A1FCAA22DD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C183C361-F558-4FEF-AD08-EA11239F30DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C183C361-F558-4FEF-AD08-EA11239F30DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C183C361-F558-4FEF-AD08-EA11239F30DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C183C361-F558-4FEF-AD08-EA11239F30DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
