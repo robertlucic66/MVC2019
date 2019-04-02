@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -202,11 +203,11 @@
     <Content Include="Views\Kontekst\RoutePodaci.cshtml" />
     <Content Include="Views\SimpleBinding\SimpleBindMetoda.cshtml" />
     <Content Include="Views\Osobe\PopuniOsobu.cshtml" />
-    <Content Include="Views\TocanOdgovor\Index.cshtml" />
+    <Content Include="Views\BrojGodina\RacunajBrojGodina.cshtml" />
+    <Content Include="Views\TocanOdgovor\ProvjeriOdgovor.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\BrojGodina\" />
     <Folder Include="Views\GeneratorIzlaza\" />
   </ItemGroup>
   <ItemGroup>

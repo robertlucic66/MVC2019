@@ -1,0 +1,18 @@
+﻿@model string
+@{
+    ViewBag.Title = "RacunajBrojGodina";
+}
+
+<h2>RacunajBrojGodina</h2>
+
+<div>
+    <form method="post">
+        <label>Unesite datum rođenja:</label>
+        <input type="text" name="datum" value="" />
+        <button type="submit">Pošalji</button>
+    </form>
+</div>
+<p>
+    <label style="font-weight:bold;">Broj godina: @Model</label>
+</p>
+

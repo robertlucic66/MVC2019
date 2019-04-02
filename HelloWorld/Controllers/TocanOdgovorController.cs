@@ -9,17 +9,18 @@ namespace HelloWorld.Controllers
     public class TocanOdgovorController : Controller
     {
         // GET: TocanOdgovor
-        public ActionResult Index()
+        public ViewResult ProvjeriOdgovor()
         {
             return View();
         }
 
-        public ViewResult ProvjeriOdgovor(string Odgovor)
+        [HttpPost]
+        public ViewResult ProvjeriOdgovor(string odgovor)
         {
             string rezultat;
             if (!string.IsNullOrEmpty(odgovor))
             {
-                if (Odgovor = "Bruxelles")
+                if (odgovor == "Bruxelles")
                 {
                     rezultat = "Odgovor je točan";
                     return View((object)rezultat)
@@ -30,6 +31,11 @@ namespace HelloWorld.Controllers
                     rezultat = "Odgovor nije točan!";
                     return View((object)rezultat);
                 }
+            }
+            else
+            {
+                rezultat = "Odgovor ne postoji!";
+                return View((object)rezultat);
             }
 
 
