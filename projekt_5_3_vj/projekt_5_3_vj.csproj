@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C183C361-F558-4FEF-AD08-EA11239F30DF}</ProjectGuid>
+    <ProjectGuid>{1BD9528A-FAD2-4E52-AD2A-48D91BB081A6}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_4._2._1_Narudzbaartikla</RootNamespace>
-    <AssemblyName>4.2.1_Narudzbaartikla</AssemblyName>
+    <RootNamespace>projekt_5_3_vj</RootNamespace>
+    <AssemblyName>projekt_5_3_vj</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -25,7 +25,6 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -143,13 +142,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\NarudzbaArtiklaController.cs" />
-    <Compile Include="Controllers\ParcijalniPoglediController.cs" />
-    <Compile Include="Controllers\RazorSintaksaController.cs" />
+    <Compile Include="Controllers\LayoutSectionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Artikal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -189,13 +185,13 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\NarudzbaArtikla\NaruciArtikal.cshtml" />
-    <Content Include="Views\RazorSintaksa\ViewZaForPetlju.cshtml" />
-    <Content Include="Views\ParcijalniPogledi\PrikaziKosaricu.cshtml" />
-    <Content Include="Views\Shared\_Artikl.cshtml" />
+    <Content Include="Views\Shared\_LayoutPage.cshtml" />
+    <Content Include="Views\LayoutSection\Stranica1.cshtml" />
+    <Content Include="Views\LayoutSection\Stranica2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -228,9 +224,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52383</DevelopmentServerPort>
+          <DevelopmentServerPort>56171</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52383/</IISUrl>
+          <IISUrl>http://localhost:56171/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

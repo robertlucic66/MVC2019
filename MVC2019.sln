@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2.1_Narudzbaartikla", "4.2.1_Narudzbaartikla\4.2.1_Narudzbaartikla.csproj", "{C183C361-F558-4FEF-AD08-EA11239F30DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projekt_5_3_vj", "projekt_5_3_vj\projekt_5_3_vj.csproj", "{1BD9528A-FAD2-4E52-AD2A-48D91BB081A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C183C361-F558-4FEF-AD08-EA11239F30DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C183C361-F558-4FEF-AD08-EA11239F30DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C183C361-F558-4FEF-AD08-EA11239F30DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD9528A-FAD2-4E52-AD2A-48D91BB081A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD9528A-FAD2-4E52-AD2A-48D91BB081A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD9528A-FAD2-4E52-AD2A-48D91BB081A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD9528A-FAD2-4E52-AD2A-48D91BB081A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,31 @@
+﻿@*@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}*@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <img src="https://agsol.com/wp-content/uploads/2018/09/new-microsoft-logo-SIZED-SQUARE.jpg"/>
+    </div>
+    <div>
+        <a href="/LayoutSection/Stranica1">Stranica 1</a> |
+        <a href="/LayoutSection/Stranica2">Stranica 2</a>
+
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <div>
+        @RenderSection("Detalji", false)
+    </div>
+
+
+</body>
+</html>
+
+
