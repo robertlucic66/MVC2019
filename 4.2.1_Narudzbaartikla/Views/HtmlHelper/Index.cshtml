@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form>
+    using(@Html.BeginForm("OdrediGrupuProizvoda", "ChildAction", FormMethod.Post))
+    {
+    @Html.CheckBox("prvi", true); <br />
+    @Html.CheckBox("drugi", false); <br />
+    @Html.RadioButton("imeradia", "val1", true); <br />
+    @Html.RadioButton("imeradia", "val2", false); <br />
+    @Html.Hidden("pass"); <br />
+    @Html.TextBox("tekstic-boxic", "vrijednost"); <br />
+    @Html.TextArea("tekstic-area", "Ovo je neki text \n koji \n je u \n novom \n redu", 10, 15, null) <br />
+    @Html.DropDownList("drop-owner", new SelectList(new[] { "Musko", "Zensko" }));
+    @Html.ListBox("list-boxic", new SelectList(new[] { "Musko", "Zensko" }));
+    }
+
+</form>
+
