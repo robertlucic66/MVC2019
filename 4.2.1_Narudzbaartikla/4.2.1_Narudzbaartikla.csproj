@@ -199,6 +199,7 @@
     <Content Include="Views\ChildAction\ChildActionView.cshtml" />
     <Content Include="Views\HtmlHelper\Index.cshtml" />
     <Content Include="Views\HtmlHelper\FormHelper.cshtml" />
+    <Content Include="Views\HtmlHelper\StrongTypedFormHelper.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
