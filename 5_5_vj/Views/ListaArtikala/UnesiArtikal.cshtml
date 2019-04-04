@@ -1,0 +1,29 @@
+﻿@model _5_5_vj.Models.Artikal
+@{
+    ViewBag.Title = "UnesiArtikal";
+    Html.EnableClientValidation(false);
+}
+
+<h2>UnesiArtikal</h2>
+
+@using (Html.BeginForm("DodajArtikal", "ListaArtikala"))
+{
+    <div>
+        <label>Kategorija: </label>
+        @Html.DropDownListFor(x => x.Kategorija, new SelectList((string[])ViewBag.Kategorije), "--Kategorija--")
+    </div>
+    <div>
+        <label>Cijena: </label>
+        @Html.TextBoxFor(x => x.Cijena)
+    </div>
+    <div>
+        <label>Količina: </label>
+        @Html.TextBoxFor(x => x.Kolicina)
+    </div>
+    <p>
+        <button type="submit">Dodaj!</button>
+    </p>
+
+
+}
+
