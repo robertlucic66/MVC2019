@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_5_vj", "5_5_vj\5_5_vj.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.1.1_izdavanje_racuna", "7.1.1_izdavanje_racuna\7.1.1_izdavanje_racuna.csproj", "{151C8BAB-1530-4C16-8BE5-FF519901EEB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ado_net_spajanje_na_bazu", "ado_net_spajanje_na_bazu\ado_net_spajanje_na_bazu.csproj", "{EC47BDB4-DABD-47B8-91AC-D4649F945CA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{151C8BAB-1530-4C16-8BE5-FF519901EEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{151C8BAB-1530-4C16-8BE5-FF519901EEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{151C8BAB-1530-4C16-8BE5-FF519901EEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC47BDB4-DABD-47B8-91AC-D4649F945CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC47BDB4-DABD-47B8-91AC-D4649F945CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC47BDB4-DABD-47B8-91AC-D4649F945CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC47BDB4-DABD-47B8-91AC-D4649F945CA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
