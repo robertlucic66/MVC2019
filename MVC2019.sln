@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_NET_Komponente", "ADO_N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adresar", "Adresar\Adresar.csproj", "{E7A19695-948B-4AD8-BF22-DACEEF08741A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop", "WebShop\WebShop.csproj", "{4B11B789-1B24-4C75-9467-EAACCD5B036E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop", "WebShop\WebShop.csproj", "{C2866BB6-F917-43D6-AFA2-AA4EB1A9DA2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,10 +71,10 @@ Global
 		{E7A19695-948B-4AD8-BF22-DACEEF08741A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7A19695-948B-4AD8-BF22-DACEEF08741A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7A19695-948B-4AD8-BF22-DACEEF08741A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B11B789-1B24-4C75-9467-EAACCD5B036E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B11B789-1B24-4C75-9467-EAACCD5B036E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B11B789-1B24-4C75-9467-EAACCD5B036E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B11B789-1B24-4C75-9467-EAACCD5B036E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2866BB6-F917-43D6-AFA2-AA4EB1A9DA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2866BB6-F917-43D6-AFA2-AA4EB1A9DA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2866BB6-F917-43D6-AFA2-AA4EB1A9DA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2866BB6-F917-43D6-AFA2-AA4EB1A9DA2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

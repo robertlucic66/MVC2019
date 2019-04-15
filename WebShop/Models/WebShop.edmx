@@ -11,7 +11,7 @@
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Naziv" Type="nvarchar" MaxLength="50" Nullable="false" />
-          <Property Name="Opis" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="Opis" Type="nvarchar" MaxLength="500" />
         </EntityType>
         <EntityType Name="KategorijeProizvodi">
           <Key>
@@ -46,7 +46,7 @@
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="KorisnikId" Type="int" Nullable="false" />
-          <Property Name="Prezime" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Prezime" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="DatumKreiranja" Type="datetime" Nullable="false" />
           <Property Name="DatumVrijemeDostave" Type="datetime" Nullable="false" />
@@ -189,7 +189,7 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Naziv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Opis" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Opis" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="KategorijeProizvodis" Relationship="Self.FK__Kategorij__Kateg__33D4B598" FromRole="Kategorije" ToRole="KategorijeProizvodi" />
         </EntityType>
         <EntityType Name="KategorijeProizvodi">
@@ -229,7 +229,7 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="KorisnikId" Type="Int32" Nullable="false" />
-          <Property Name="Prezime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Prezime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="DatumKreiranja" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="DatumVrijemeDostave" Type="DateTime" Nullable="false" Precision="3" />
